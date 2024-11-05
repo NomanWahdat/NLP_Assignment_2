@@ -1,0 +1,27 @@
+
+   1.  Context Disambiguation 
+   -  Input:  "I love eating Apple in the morning."
+     -  Expected Output:  "Apple (Fruit)"
+   -  Input:  "The new Apple device was released yesterday."
+     -  Expected Output:  "Apple (Company)"
+
+   2.  Sentiment Analysis with NMF 
+   -  Input:  
+ 
+     "I am happy with the service."
+     "The product is bad and disappointing."
+     
+   -  Expected Output:  "Positive" (if positive words dominate) or "Negative" (if negative words dominate)
+
+   3.  Performance Evaluation 
+   -  Inputs for TP, FP, FN :  
+     -  TP (True Positives) : 10  
+     -  FP (False Positives) : 3  
+     -  FN (False Negatives) : 2  
+   -  Expected Output :
+     
+     Accuracy: 0.77
+     Precision: 0.77
+     Recall: 0.83
+   
+
